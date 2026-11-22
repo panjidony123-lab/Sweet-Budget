@@ -1,0 +1,20 @@
+{
+  "name": "Sweet Budget",
+  "short_name": "Sweet Budget",
+  "description": "Catat pemasukan dan pengeluaran langsung ke spreadsheet Home Sweet Budget.",
+  "lang": "id",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Tambah transaksi", "short_name": "Tambah", "url": "./?source=pwa&add=1", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
